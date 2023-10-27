@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.apis.Ejercicio2",
+  "simulationId": "ejercicio2",
+  "start": 1698170086736,
+  "description": "Test Demo PokeAPI 1",
+  "scenarios": ["Get Tackle Move Details", "List Pokemon", "Get Overgrow Ability", "Search Electric Pokemon", "Get Pallet Town Details", "Get Pikachu Details"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,16 @@
+RUN	com.gatling.tests.apis.PostPutDeleteAPIDemo	postputdeleteapidemo	1698186061070	Test Run API Demo 2	3.6.1
+USER	Create User	START	1698186062653
+REQUEST		create user req	1698186062727	1698186063253	KO	jsonPath($.name).find.is(John), but actually found Jakson
+USER	Create User	END	1698186063343
+USER	Create User	START	1698186063637
+REQUEST		create user req	1698186063638	1698186064120	KO	jsonPath($.name).find.is(John), but actually found Jakson
+USER	Create User	END	1698186064123
+USER	Create User	START	1698186064649
+REQUEST		create user req	1698186064650	1698186065142	KO	jsonPath($.name).find.is(John), but actually found Jakson
+USER	Create User	END	1698186065144
+USER	Create User	START	1698186065630
+REQUEST		create user req	1698186065631	1698186066110	KO	jsonPath($.name).find.is(John), but actually found Jakson
+USER	Create User	END	1698186066113
+USER	Create User	START	1698186066630
+REQUEST		create user req	1698186066631	1698186067120	KO	jsonPath($.name).find.is(John), but actually found Jakson
+USER	Create User	END	1698186067122

@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.apis.Ejercicio1",
+  "simulationId": "ejercicio1",
+  "start": 1698170003399,
+  "description": "Test Demo Hard 1",
+  "scenarios": ["List Users", "Create User", "Delete User", "Get User Details", "Update User"],
+  "assertions": [
+
+  ]
+}
